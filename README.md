@@ -9,17 +9,23 @@ simple multi-platform app with functionality to take pictures, store them to loc
 - Android Studio and Android SDK https://developer.android.com/studio?gclid=Cj0KCQjwiIOmBhDjARIsAP6YhSXKDPZKNHzGENuDngZdh4BG8YIkroKHZka7L3BqlIjmmJOFBgYiPzkaAgg4EALw_wcB&gclsrc=aw.ds
 
 
-# Deployment
+# Deploying locally
 to run locally in browser in dev mode
-```commandline
+```commandline,
 ionic serve
 ```
 
 to run in Android Studio dev mode (for android devices)
-```commandline
+```commandline,
 # - Enable developer mode on your android devide.
 # - Open Android Studio -> Device Manager, and pair your Android device over wifi.
 # - run the following command to run the app on your android device. dont forget to press enter to chose your device
 
 ionic cap run android -l --external 
+```
+
+
+# Install the Appflow SDK
+```commandline,
+ionic live-update add --app-id="6e9539d3" --channel-name="Production" --update-method="background"
 ```
