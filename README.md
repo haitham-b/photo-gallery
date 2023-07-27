@@ -15,6 +15,11 @@ to run locally in browser in dev mode
 ionic serve
 ```
 
+to open android project in Android Studion
+```commandline,
+ionic cap open android
+```
+
 to run in Android Studio dev mode (for android devices)
 ```commandline,
 # - Enable developer mode on your android devide.
